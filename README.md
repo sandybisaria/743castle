@@ -21,13 +21,10 @@ December 7 – December 14: **Complete final report**
 ### (Milestone 2) Baseline Convolution Algorithm Characteristics
 ![alt text](https://github.com/sandybisaria/743castle/blob/master/checkpoint/on-chip_power_by_function.PNG)
 ![alt text](https://github.com/sandybisaria/743castle/blob/master/checkpoint/on-chip_power_vs_temperature.PNG)
-+ Timing (ns): 
-    * Summary: 
-    +--------+-------+----------+------------+
-    |  Clock | Target| Estimated| Uncertainty|
-    +--------+-------+----------+------------+
-    |ap_clk  |  20.00|    10.498|        2.50|
-    +--------+-------+----------+------------+
++ Timing (ns):\
+   |Clock       |Target   |Estimated|Uncertainity|
+   |------------|---------|---------|------------|
+   |ap_clk      |20.00    |10.498   |2.50        |
 
 + Latency (clock cycles): 
     * Summary: 
