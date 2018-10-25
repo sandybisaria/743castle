@@ -10,8 +10,8 @@ Convolution is widely used in image and video processing. Despite being simple t
 4. Implement proposed optimizations
 
 ### Schedule
-September 29 – October 19\
-    - Implement baseline 2D convolution on FPGA\
+September 29 – October 19
+    * Implement baseline 2D convolution on FPGA\
 October 20 – October 26\
     - Complete midpoint presentation and report\
 October 27 – November 7\
