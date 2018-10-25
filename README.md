@@ -18,3 +18,4 @@ November 19 – November 26: **Evaluate performance and efficiency of optimized 
 November 27 – December 6: **Wrap up and complete final presentation**\
 December 7 – December 14: **Complete final report**
 
+![alt text](https://github.com/sandybisaria/743castle/blob/master/checkpoint/on-chip_power_by_function.PNG)
