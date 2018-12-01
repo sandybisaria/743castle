@@ -1,11 +1,11 @@
 Release              : Xilinx Power Estimator (XPE) - 2018.2
 Implementation       : Default
-Date                 : 24 Oct 2018 @ 21:56
+Date                 : 30 Nov 2018 @ 19:34
 
 
 1.1 Project
 ---------------------------------------------------------------
-Design Name          : Vivado Power Analysis 2018.2: base_mb_wrapper: Wed Oct 24 21:50:49 2018
+Design Name          : Vivado Power Analysis 2018.2.2: base_mb_wrapper: Fri Nov 30 19:31:41 2018
 
 
 1.2 Device
@@ -39,9 +39,9 @@ Total Off-Chip Power :  0.000
 ----------------------------------------------------------------
 | On-Chip   | Power (W) |   Used   | Available | Utilization (%)
 ----------------------------------------------------------------
-| Clocks    |     0.023 |
+| Clocks    |     0.022 |
 | Logic     |     0.016 |
-| BRAM      |     0.008 |
+| BRAM      |     0.009 |
 | DSP       |     0.006 |
 | PLL       |     0.000 |
 | MMCM      |     0.107 |
@@ -60,7 +60,7 @@ Total Off-Chip Power :  0.000
 ----------------------------------------------------------------
 | Source    |  Voltage  | Current (A) | Dynamic (A) | Static (A)
 ----------------------------------------------------------------
-| Vccint    |     1.000 |      0.189   |  0.054      |  0.135
+| Vccint    |     1.000 |      0.189   |  0.055      |  0.135
 | Vccbram   |     1.000 |      0.004   |  0.001      |  0.003
 | Vccaux    |     1.800 |      0.098   |  0.061      |  0.038
 | Vcco18    |     1.800 |      0.001   |  0.000      |  0.001
@@ -70,6 +70,6 @@ Total Off-Chip Power :  0.000
 
 2.3 Thermal Summary
 ---------------------------------------------------------------
-Thermal Margin       : 59.534C   50.520W
+Thermal Margin       : 59.533C   50.519W
 Effective TJA (C/W)  :  1.144
-Junction Temperature : 25.466
+Junction Temperature : 25.467
