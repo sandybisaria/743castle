@@ -25,3 +25,12 @@ Convolution is widely used in image and video processing. Despite being simple t
 
 ![alt text](https://github.com/sandybisaria/743castle/blob/master/baseline/onchippowerbyfunction.PNG)
 ![alt text](https://github.com/sandybisaria/743castle/blob/master/baseline/onchippowertypical.PNG)
+
+## (Milestone 4)
+### Pipelined Convolution Algorithm Characteristics
+|Estimated Min Period (ns)|Uncertainty (ns)|Latency (cycles)|Latency (ms)|
+|---|---|---|---|
+|10.498|2.50|2360327|24.8|
+
+![alt text](https://github.com/sandybisaria/743castle/blob/master/pipelined/onchippowerbyfunction.PNG)
+![alt text](https://github.com/sandybisaria/743castle/blob/master/pipelined/onchippowertypical.PNG)
