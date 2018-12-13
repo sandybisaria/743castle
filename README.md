@@ -1,23 +1,27 @@
-# Energy Efficient Image Processing on FPGA
+# Energy-efficient Image Processing on FPGA
 
-### Abstract
-Convolution is widely used in image and video processing. Despite being simple to describe mathematically, it is a very intensive operation in terms of computation and memory usage. The ever-increasing popularity of photos and videos, especially on mobile devices like smartphones, has made it inevitable that we look for ways to perform convolution on handheld devices faster while maintaining power constraints. GPUs have been considered for accelerating performance, but they may not be the most ideal in low-power situations. In our project, we will implement a baseline solution and analyze its performance in terms of latency and energy costs. We plan to accelerate the algorithm by exploiting the inherent parallelism in convolution along with the parallelism and other hardware features offered by FPGAs. FPGAs can also make efficient use of memory using buffers and selective memory management. We intend to compare the tradeoffs between energy and latency, and we will identify energy hot spots in our baseline solution that were optimized out in our final.
+## Abstract
+Convolution is widely used in image and video processing. Despite being simple to describe mathematically, it is a very intensive operation in terms of computation and memory usage. The ever-increasing popularity of photos and videos, especially on mobile devices like smartphones, has made it inevitable that we look for ways to perform convolution on handheld devices faster while maintaining power constraints. GPUs have been considered for accelerating performance, but they may not be the most ideal in low-power situations. We implemented a baseline solution and analyzed its performance in terms of latency and energy costs. After determining the energy hotspots and performance bottlenecks, we developed two different variations. One was designed to be more performant by exploiting the inherent parallelism in convolution across pixels. We achieved up to a 3.2x speedup compared to our original solution, but at a cost of 1.8x power increase. The other variation was able to achieve the same performance as the original but with a 3.3x power reduction. This was done using efficient use of buffers and selective memory management.
 
-### Milestones 
+## Milestones 
 1. Implement baseline 2D convolution on FPGA
 2. Perform analysis on energy usage and latency
 3. Identify hotspots and other areas for improvement
 4. Implement proposed optimizations
 
-### Schedule
-September 29 – October 19: **Implement baseline 2D convolution on FPGA**\
-October 20 – October 26: **Complete midpoint presentation and report**\
-October 27 – November 7: **Identify energy hot spots; Evaluate tradeoffs between energy and latency**\
-November 8 – November 18: **Identify and implement optimizations**\
-November 19 – November 26: **Evaluate performance and efficiency of optimized algorithm**\
-November 27 – December 6: **Wrap up and complete final presentation**\
-December 7 – December 14: **Complete final report**
+## Schedule
+* September 29 – October 19: **Implement baseline 2D convolution on FPGA**
+* October 20 – October 26: **Complete midpoint presentation and report**
+* October 27 – November 7: **Identify energy hot spots; Evaluate tradeoffs between energy and latency**
+* November 8 – November 18: **Identify and implement optimizations**
+* November 19 – November 26: **Evaluate performance and efficiency of optimized algorithm**
+* November 27 – December 6: **Wrap up and complete final presentation**
+* December 7 – December 14: **Complete final report**
 
-### (Milestone 2) Baseline Convolution Algorithm Characteristics
-![alt text](https://github.com/sandybisaria/743castle/blob/master/checkpoint/on-chip_power_by_function.PNG)
-![alt text](https://github.com/sandybisaria/743castle/blob/master/checkpoint/on-chip_power_vs_temperature.PNG)
+## (Milestone 2) Baseline Convolution Algorithm Characteristics
+|Estimated Min Period (ns)|Uncertainty (ns)|Latency (cycles)|Latency (ms)|
+|---|---|---|---|
+|6.002|2.50|7603204|45.6|
+
+![alt text](https://github.com/sandybisaria/743castle/blob/master/baseline/onchippowerbyfunction.PNG)
+![alt text](https://github.com/sandybisaria/743castle/blob/master/baseline/onchippowertypical.PNG)
