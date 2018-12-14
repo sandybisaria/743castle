@@ -34,3 +34,17 @@ Convolution is widely used in image and video processing. Despite being simple t
 
 ![alt text](https://github.com/sandybisaria/743castle/blob/master/pipelined/onchippowerbyfunction.PNG)
 ![alt text](https://github.com/sandybisaria/743castle/blob/master/pipelined/onchippowertypical.PNG)
+
+### Energy-Efficient Convolution Algorithm Characteristics
+|Estimated Min Period (ns)|Uncertainty (ns)|Latency (cycles)|Latency (ms)|
+|---|---|---|---|
+|6.002|2.50|7603204|45.6|
+The timing results are in fact the same as the baseline convolution implementation.
+
+![alt text](https://github.com/sandybisaria/743castle/blob/master/energyefficient/onchippowerbyfunction.PNG)
+![alt text](https://github.com/sandybisaria/743castle/blob/master/energyefficient/onchippowertypical.PNG)
+
+### Comparisons
+![alt text](https://github.com/sandybisaria/743castle/blob/master/comparison/powernormalized.PNG)
+![alt text](https://github.com/sandybisaria/743castle/blob/master/comparison/resourceutil1.PNG)
+![alt text](https://github.com/sandybisaria/743castle/blob/master/comparison/resourceutil2.PNG)
